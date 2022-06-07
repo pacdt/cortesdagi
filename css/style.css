@@ -1,0 +1,123 @@
+/*Limpar Formatações Padrões*/
+*{margin: 0; padding: 0;}
+
+body{
+    font-size: 1em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: #e6e6e6;
+}
+/*
+**** Layout ****
+*/
+#area-cabecalho{
+    background-color: #b4acf6;
+    padding: 15px;
+    text-align: center;
+}
+#area-logo, #area-menu{
+    padding: 10px;
+}
+#area-principal{
+    width: 920px;
+    margin: 0 auto;
+    padding: 15px;
+}
+#area-postagens{
+    width: 660px;
+    float: left;
+}
+#area-lateral{
+    width: 240px;
+    float: right;
+}
+.postagem{
+    padding: 20px;
+    margin-bottom: 20px;
+    background: white;
+}
+.conteudo-lateral{
+    background: white;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+#rodape{
+    clear: both;
+    text-align: center;
+    padding: 15px;
+    background: #f6e8a9;
+}
+.postagem-lateral{
+    font-size: 0.9em;
+    padding: 5px;
+    border-bottom: 1px dotted #f6e8a9;
+}
+/* **** Formatação do menu **** */
+a{
+    text-decoration: none;
+}
+a:link, a:visited{
+    color: #b4acf6;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+#area-cabecalho a:link, #area-cabecalho a:visited{
+    color: white;
+    padding: 8px 12px;
+}
+#area-cabecalho a:hover{
+    color: #b4acf6;
+    background: white;
+    text-decoration: none;
+}
+/*
+**** Formatações Gerais ****
+*/
+h1 {
+    color: #b4acf6;
+    font-size: 2.5em;
+}
+h2{
+    color: #b4acf6;
+}
+h3{
+    color: #565656;
+    background: #f6e8a9;
+    padding: 5px;
+}
+.branco{
+    color: white;
+    font-weight: bolder;
+}
+.data-postagem{
+    font-size: 0.8em;
+    border-bottom: 1px solid #f4f4f4;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    display: block;
+}
+.sub-postagem{
+    font-size: 1.2em;
+    border-bottom: 1px solid #f4f4f4;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    display: block;
+}
+.btn-download a{
+    background: #f6e8a9;
+    display: inline-block;
+    padding: 8px;
+    margin-top: 10px;
+    color: #b4acf6;
+    text-decoration: none;
+}
+/* Rodapé e ads */
+.criado{
+    padding-top: 5px;
+    font-size: 12px;
+}
+.pub{
+    width: 160px;
+    height: 600px;
+}
